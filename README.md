@@ -1,8 +1,9 @@
-# Blockchain Project README
+# Web3.py 
 
 ## Overview
 
 This program is designed to store and retrieve blockchain logs on the Ethereum network.
+I used web3.py for this process. 
 
 ## Prerequisites
 
