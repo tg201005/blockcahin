@@ -5,6 +5,9 @@
 This program is designed to store and retrieve blockchain logs on the Ethereum network.
 I used web3.py for this process. 
 
+This project was a progression of Trancendence's blockchain module, the final project of ecole 42. 
+
+
 ## Prerequisites
 
 Before running this program, make sure to upload the values from the `.env.example` file. You have the option to use services like Infura for the Goerli network or Ganache for a local network.
