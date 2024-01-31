@@ -1,0 +1,6 @@
+# 적용방법: pip install -r requirements.txt hi
+# 만약 패키지 변경된 사항 있을 경우(추가설치 등): pip freeze > requirements.txt
+
+web3==6.15.0
+py-solc-x
+python-dotenv
