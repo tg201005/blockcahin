@@ -50,12 +50,9 @@ def retrieve_transaction():
         tournament_log.append({"tournament": tournament_dict})
 
     tournament_log_data = {"tournamentLog": tournament_log}
-    print("tournament!!! :", tournaments)
-    print("tournament_log_data!!! :", tournament_log_data)
 
     # 딕셔너리를 JSON 형태로 변환
     json_data = json.dumps(tournament_log_data, ensure_ascii=False, indent=4)
-    print("json_tournament!!! :", json_data)
 
     return json_data
 
@@ -78,5 +75,4 @@ def record_transaction(tournament):
 
     # Wait for the transaction to be mined
     tx_receipt = w3.eth.wait_for_transaction_receipt(send_add_tx)
-
-    print("add_transaction!!! :", tournament)
+    print("Recorded Done!")
